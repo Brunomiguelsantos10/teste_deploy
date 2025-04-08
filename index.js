@@ -6,8 +6,8 @@ const PORT = process.env.PORT
 app.get("/", (req,res) => {
     res.send("<h1>Ola Bruno</h1>")
 })
-app.get("/produtos", (req,res) => {
-    res.send("<h1>produtos</h1>")
+app.get("/motivacional", (req,res) => {
+    res.send("<h1>vai tomar no cu!!!</h1>")
 })
 app.listen(PORT,()=>{
     console.log(`Servidor rodando na porta ${PORT}`)
